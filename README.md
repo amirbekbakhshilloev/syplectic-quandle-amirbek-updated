@@ -1,6 +1,6 @@
-# Causality Detection via Symplectic Quandles (revised version)
+# Symplectic Quandles Distinguish the Allen-Swenberg Links
 
-Code and data for the revised version of *Causality Detection via Symplectic Quandles*
+Code and data for the paper *Symplectic Quandles Distinguish the Allen-Swenberg Links*
 by Amirbek Baxshilloyev (arXiv:2508.18323). The paper source and PDF are in `paper/`.
 
 Version 1 of the paper computed the enhanced quandle counting polynomial with the number of
