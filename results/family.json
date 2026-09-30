@@ -1,0 +1,143 @@
+{
+ "(Z_2)^2": {
+  "H": 28,
+  "counts": [
+   28,
+   28,
+   28,
+   28,
+   28,
+   28,
+   28,
+   28
+  ],
+  "orbit_reps": 5,
+  "R_colourings": 34,
+  "B_colourings": 16,
+  "identity_block_colouring_for_all_boundary_data": true,
+  "sec": 0.0
+ },
+ "(Z_3)^2": {
+  "H": 153,
+  "counts": [
+   153,
+   153,
+   153,
+   153,
+   153,
+   153,
+   153,
+   153
+  ],
+  "orbit_reps": 7,
+  "R_colourings": 153,
+  "B_colourings": 81,
+  "identity_block_colouring_for_all_boundary_data": true,
+  "sec": 0.1
+ },
+ "(Z_5)^2": {
+  "H": 1225,
+  "counts": [
+   1225,
+   13225,
+   37225,
+   7723225,
+   38371225,
+   2526181225,
+   17146753225,
+   1645957087225
+  ],
+  "orbit_reps": 11,
+  "R_colourings": 21385,
+  "B_colourings": 5425,
+  "identity_block_colouring_for_all_boundary_data": true,
+  "sec": 13.4
+ },
+ "(Z_7)^2": {
+  "H": 4753,
+  "counts": [
+   123025,
+   7466641,
+   481705105,
+   32264735377,
+   2234220779665,
+   159179193755281,
+   11610833130747025,
+   863155251689390737
+  ],
+  "orbit_reps": 15,
+  "R_colourings": 144529,
+  "B_colourings": 142177,
+  "identity_block_colouring_for_all_boundary_data": true,
+  "sec": 179.5
+ },
+ "(Z/4)^2": {
+  "H": 736,
+  "counts": [
+   2176,
+   25216,
+   393856,
+   6292096,
+   100663936,
+   1610613376,
+   25769804416,
+   412316861056
+  ],
+  "R_colourings": 2464,
+  "B_colourings": 1696,
+  "identity_block_colouring_for_all_boundary_data": true
+ },
+ "(F_4)^2": {
+  "H": 496,
+  "counts": [
+   3376,
+   156496,
+   7335376,
+   357795496,
+   17413785376,
+   849535587496,
+   41472629523376,
+   2025921398202496
+  ],
+  "R_colourings": 10036,
+  "B_colourings": 4336,
+  "identity_block_colouring_for_all_boundary_data": true
+ },
+ "(Z/2)^4": {
+  "H": 1216,
+  "counts": [
+   48736,
+   4800736,
+   480000736,
+   48000000736,
+   4800000000736,
+   480000000000736,
+   48000000000000736,
+   4800000000000000736
+  ],
+  "R_colourings": 60736,
+  "B_colourings": 12136,
+  "identity_block_colouring_for_all_boundary_data": true
+ },
+ "(Z/2)^3, J+0": {
+  "H": 224,
+  "counts": [
+   944,
+   12464,
+   196784,
+   3145904,
+   50331824,
+   805306544,
+   12884902064,
+   206158430384
+  ],
+  "R_colourings": 1328,
+  "B_colourings": 424,
+  "identity_block_colouring_for_all_boundary_data": true
+ },
+ "direct check (Z/4)^2 n=1,2,3": [
+  2176,
+  25216,
+  393856
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "L1 p=2": {
+  "H": 28,
+  "H_axis0": 16,
+  "axis0": 16,
+  "extra_sky_colourings": 0,
+  "axis_nonzero": 12,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 28,
+  "separates_from_H": false,
+  "sec": 0.0
+ },
+ "L1 p=3": {
+  "H": 153,
+  "H_axis0": 81,
+  "axis0": 81,
+  "extra_sky_colourings": 0,
+  "axis_nonzero": 72,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 153,
+  "separates_from_H": false,
+  "sec": 0.0
+ },
+ "L1 p=5": {
+  "H": 1225,
+  "H_axis0": 625,
+  "axis0": 625,
+  "extra_sky_colourings": 0,
+  "axis_nonzero": 600,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 1225,
+  "separates_from_H": false,
+  "sec": 0.1
+ },
+ "L1 p=7": {
+  "H": 4753,
+  "H_axis0": 2401,
+  "axis0": 120673,
+  "extra_sky_colourings": 118272,
+  "axis_nonzero": 2352,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 123025,
+  "separates_from_H": true,
+  "sec": 0.6
+ },
+ "L1 p=11": {
+  "H": 29161,
+  "H_axis0": 14641,
+  "axis0": 458161,
+  "extra_sky_colourings": 443520,
+  "axis_nonzero": 14520,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 472681,
+  "separates_from_H": true,
+  "sec": 13.1
+ },
+ "L1 p=13": {
+  "H": 56953,
+  "H_axis0": 28561,
+  "axis0": 28561,
+  "extra_sky_colourings": 0,
+  "axis_nonzero": 28392,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 56953,
+  "separates_from_H": false,
+  "sec": 74.8
+ },
+ "L1 p=17": {
+  "H": 166753,
+  "H_axis0": 83521,
+  "axis0": 12147265,
+  "extra_sky_colourings": 12063744,
+  "separates_from_H": true,
+  "sec": 27.1
+ },
+ "L1 p=19": {
+  "H": 260281,
+  "H_axis0": 130321,
+  "axis0": 11074321,
+  "extra_sky_colourings": 10944000,
+  "separates_from_H": true,
+  "sec": 53.9
+ },
+ "L1 p=23": {
+  "H": 559153,
+  "H_axis0": 279841,
+  "axis0": 84219169,
+  "extra_sky_colourings": 83939328,
+  "separates_from_H": true,
+  "sec": 199.4
+ },
+ "L2 p=2": {
+  "H": 28,
+  "H_axis0": 16,
+  "axis0": 16,
+  "extra_sky_colourings": 0,
+  "axis_nonzero": 12,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 28,
+  "separates_from_H": false,
+  "sec": 0.0
+ },
+ "L2 p=3": {
+  "H": 153,
+  "H_axis0": 81,
+  "axis0": 81,
+  "extra_sky_colourings": 0,
+  "axis_nonzero": 72,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 153,
+  "separates_from_H": false,
+  "sec": 0.0
+ },
+ "L2 p=5": {
+  "H": 1225,
+  "H_axis0": 625,
+  "axis0": 12625,
+  "extra_sky_colourings": 12000,
+  "axis_nonzero": 600,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 13225,
+  "separates_from_H": true,
+  "sec": 1.2
+ },
+ "L2 p=7": {
+  "H": 4753,
+  "H_axis0": 2401,
+  "axis0": 7464289,
+  "extra_sky_colourings": 7461888,
+  "axis_nonzero": 2352,
+  "axis_nonzero_equals_H": true,
+  "axis_nonzero_collinear": true,
+  "total": 7466641,
+  "separates_from_H": true,
+  "sec": 24.7
+ },
+ "L2 p=11": {
+  "H": 29161,
+  "H_axis0": 14641,
+  "axis0": 75413041,
+  "extra_sky_colourings": 75398400,
+  "separates_from_H": true,
+  "sec": 520.5
+ },
+ "corrected (Z7)^2 L1": "49q + 1008q^{2} + 1680q^{3} + 120288q^{49}",
+ "corrected (Z7)^2 L2": "49q + 1008q^{2} + 1680q^{3} + 7463904q^{49}",
+ "corrected (Z7)^2 H": "49q + 1008q^{2} + 1680q^{3} + 2016q^{49}",
+ "corrected (Z7)^2 L1 direct": "49q + 1008q^{2} + 1680q^{3} + 120288q^{49}"
+}

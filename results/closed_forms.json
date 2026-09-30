@@ -1,0 +1,315 @@
+{
+ "(Z/4)^2": {
+  "minimal_polynomial": "(x - 16)*(x - 1)",
+  "c": [
+   2176,
+   25216,
+   393856,
+   6292096,
+   100663936,
+   1610613376
+  ],
+  "formula_matches_first_terms": true,
+  "H_equals_formula_at_n0": true
+ },
+ "(Z/2)^4": {
+  "minimal_polynomial": "(x - 100)*(x - 1)",
+  "c": [
+   48736,
+   4800736,
+   480000736,
+   48000000736,
+   4800000000736,
+   480000000000736
+  ],
+  "formula_matches_first_terms": true,
+  "H_equals_formula_at_n0": true
+ },
+ "(Z/2)^3, J+0": {
+  "minimal_polynomial": "(x - 16)*(x - 1)",
+  "c": [
+   944,
+   12464,
+   196784,
+   3145904,
+   50331824,
+   805306544
+  ],
+  "formula_matches_first_terms": true,
+  "H_equals_formula_at_n0": true
+ },
+ "(F_4)^2": {
+  "minimal_polynomial": "(x - 49)*(x - 41)*(x - 11)*(x - 6)*(x - 1)*(x + 9)*(x**4 + x**3 + 16*x**2 + 86*x + 521)",
+  "c": [
+   3376,
+   156496,
+   7335376,
+   357795496,
+   17413785376,
+   849535587496,
+   41472629523376,
+   2025921398202496,
+   99014377115094376,
+   4841227262995935496,
+   236790583644338793376,
+   11585127917100720831496,
+   566949233267575656540376,
+   27750909109884996607185496
+  ]
+ },
+ "enhanced all n Z4^2, J": {
+  "quandle": "Z4^2, J",
+  "subquandles": 187,
+  "recurrence": "(x - 16)*(x - 1)",
+  "coefficients": {
+   "1": "16",
+   "2": "216",
+   "3": "192",
+   "4": "120",
+   "5": "48",
+   "6": "48",
+   "13": "96*2**(4*n)"
+  },
+  "values_n1_to_4": {
+   "1": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "2": [
+    216,
+    216,
+    216,
+    216
+   ],
+   "3": [
+    192,
+    192,
+    192,
+    192
+   ],
+   "4": [
+    120,
+    120,
+    120,
+    120
+   ],
+   "5": [
+    48,
+    48,
+    48,
+    48
+   ],
+   "6": [
+    48,
+    48,
+    48,
+    48
+   ],
+   "13": [
+    1536,
+    24576,
+    393216,
+    6291456
+   ]
+  },
+  "sec": 27.3
+ },
+ "enhanced all n Z2^4, J+J": {
+  "quandle": "Z2^4, J+J",
+  "subquandles": 405,
+  "recurrence": "(x - 100)*(x - 49)*(x - 16)*(x - 1)",
+  "coefficients": {
+   "1": "16",
+   "2": "360",
+   "3": "360",
+   "4": "480",
+   "7": "720*16**n - 720",
+   "10": "360*49**n - 360",
+   "11": "-720*2**(4*n) + 360*49**n + 360",
+   "15": "360*100**n - 360*16**n - 360*49**n + 360",
+   "16": "120*100**n + 360*16**n - 360*49**n - 120"
+  },
+  "values_n1_to_4": {
+   "1": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "2": [
+    360,
+    360,
+    360,
+    360
+   ],
+   "3": [
+    360,
+    360,
+    360,
+    360
+   ],
+   "4": [
+    480,
+    480,
+    480,
+    480
+   ],
+   "7": [
+    10800,
+    183600,
+    2948400,
+    47185200
+   ],
+   "10": [
+    17280,
+    864000,
+    42353280,
+    2075328000
+   ],
+   "11": [
+    6480,
+    680400,
+    39404880,
+    2028142800
+   ],
+   "15": [
+    12960,
+    2643840,
+    316172160,
+    33901079040
+   ],
+   "16": [
+    0,
+    427680,
+    79120800,
+    9948264480
+   ]
+  },
+  "sec": 95.0
+ },
+ "enhanced all n Z2^3, J+0": {
+  "quandle": "Z2^3, J+0",
+  "subquandles": 59,
+  "recurrence": "(x - 16)*(x - 1)",
+  "coefficients": {
+   "1": "8",
+   "2": "96",
+   "3": "72",
+   "4": "48",
+   "7": "48*16**n - 48"
+  },
+  "values_n1_to_4": {
+   "1": [
+    8,
+    8,
+    8,
+    8
+   ],
+   "2": [
+    96,
+    96,
+    96,
+    96
+   ],
+   "3": [
+    72,
+    72,
+    72,
+    72
+   ],
+   "4": [
+    48,
+    48,
+    48,
+    48
+   ],
+   "7": [
+    720,
+    12240,
+    196560,
+    3145680
+   ]
+  },
+  "sec": 1.1
+ },
+ "clasp check (Z/4)^2": {
+  "T0_copy_transfer_equals_block": true,
+  "R_transpose_equals_AC_times_M": true,
+  "trace_AC": 736,
+  "H": 736,
+  "trace_AC_equals_H": true
+ },
+ "clasp check T8": {
+  "T0_copy_transfer_equals_block": true,
+  "R_transpose_equals_AC_times_M": true,
+  "trace_AC": 224,
+  "H": 224,
+  "trace_AC_equals_H": true
+ },
+ "clasp check (Z/2)^4": {
+  "T0_copy_transfer_equals_block": true,
+  "R_transpose_equals_AC_times_M": true,
+  "trace_AC": 1216,
+  "H": 1216,
+  "trace_AC_equals_H": true
+ },
+ "clasp check (F_4)^2": {
+  "T0_copy_transfer_equals_block": true,
+  "R_transpose_equals_AC_times_M": true,
+  "trace_AC": 496,
+  "H": 496,
+  "trace_AC_equals_H": true
+ },
+ "clasp check (Z_3)^2": {
+  "T0_copy_transfer_equals_block": true,
+  "R_transpose_equals_AC_times_M": true,
+  "trace_AC": 153,
+  "H": 153,
+  "trace_AC_equals_H": true
+ },
+ "clasp check (Z_5)^2": {
+  "T0_copy_transfer_equals_block": true,
+  "R_transpose_equals_AC_times_M": true,
+  "trace_AC": 1225,
+  "H": 1225,
+  "trace_AC_equals_H": true
+ },
+ "enhanced direct n<=3 (Z/4)^2": {
+  "0": {
+   "direct": "16q + 216q^{2} + 192q^{3} + 120q^{4} + 48q^{5} + 48q^{6} + 96q^{13}",
+   "matches_formula": true
+  },
+  "1": {
+   "direct": "16q + 216q^{2} + 192q^{3} + 120q^{4} + 48q^{5} + 48q^{6} + 1536q^{13}",
+   "matches_formula": true
+  },
+  "2": {
+   "direct": "16q + 216q^{2} + 192q^{3} + 120q^{4} + 48q^{5} + 48q^{6} + 24576q^{13}",
+   "matches_formula": true
+  },
+  "3": {
+   "direct": "16q + 216q^{2} + 192q^{3} + 120q^{4} + 48q^{5} + 48q^{6} + 393216q^{13}",
+   "matches_formula": true
+  }
+ },
+ "enhanced direct n<=3 T8": {
+  "0": {
+   "direct": "8q + 96q^{2} + 72q^{3} + 48q^{4}",
+   "matches_formula": true
+  },
+  "1": {
+   "direct": "8q + 96q^{2} + 72q^{3} + 48q^{4} + 720q^{7}",
+   "matches_formula": true
+  },
+  "2": {
+   "direct": "8q + 96q^{2} + 72q^{3} + 48q^{4} + 12240q^{7}",
+   "matches_formula": true
+  },
+  "3": {
+   "direct": "8q + 96q^{2} + 72q^{3} + 48q^{4} + 196560q^{7}",
+   "matches_formula": true
+  }
+ }
+}

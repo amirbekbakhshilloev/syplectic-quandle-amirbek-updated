@@ -1,0 +1,96 @@
+{
+ "table": {
+  "p=3 H": {
+   "count": 153,
+   "arc_colour_count": "9q + 72q^{2} + 72q^{3}",
+   "corrected": "9q + 72q^{2} + 24q^{3} + 48q^{9}"
+  },
+  "p=3 L1": {
+   "count": 153,
+   "arc_colour_count": "9q + 72q^{2} + 24q^{3} + 48q^{9}",
+   "corrected": "9q + 72q^{2} + 24q^{3} + 48q^{9}"
+  },
+  "p=3 L2": {
+   "count": 153,
+   "arc_colour_count": "9q + 72q^{2} + 24q^{3} + 48q^{9}",
+   "corrected": "9q + 72q^{2} + 24q^{3} + 48q^{9}"
+  },
+  "p=5 H": {
+   "count": 1225,
+   "arc_colour_count": "25q + 360q^{2} + 840q^{3}",
+   "corrected": "25q + 360q^{2} + 360q^{3} + 480q^{25}"
+  },
+  "p=5 L1": {
+   "count": 1225,
+   "arc_colour_count": "25q + 360q^{2} + 360q^{3} + 360q^{21} + 120q^{22}",
+   "corrected": "25q + 360q^{2} + 360q^{3} + 480q^{25}"
+  },
+  "p=5 L2": {
+   "count": 13225,
+   "arc_colour_count": "25q + 360q^{2} + 360q^{3} + 360q^{21} + 120q^{22} + 12000q^{25}",
+   "corrected": "25q + 360q^{2} + 360q^{3} + 12480q^{25}"
+  }
+ },
+ "R2": {
+  "p=3 H": {
+   "count": 153,
+   "arc_colour_count": "9q + 72q^{2} + 72q^{3}",
+   "corrected": "9q + 72q^{2} + 24q^{3} + 48q^{9}"
+  },
+  "p=3 H after R2": {
+   "count": 153,
+   "arc_colour_count": "9q + 72q^{2} + 24q^{3} + 48q^{4}",
+   "corrected": "9q + 72q^{2} + 24q^{3} + 48q^{9}"
+  },
+  "p=5 H": {
+   "count": 1225,
+   "arc_colour_count": "25q + 360q^{2} + 840q^{3}",
+   "corrected": "25q + 360q^{2} + 360q^{3} + 480q^{25}"
+  },
+  "p=5 H after R2": {
+   "count": 1225,
+   "arc_colour_count": "25q + 360q^{2} + 360q^{3} + 480q^{4}",
+   "corrected": "25q + 360q^{2} + 360q^{3} + 480q^{25}"
+  }
+ },
+ "H_formula": {
+  "2": {
+   "count": 28,
+   "formula_count": 28,
+   "polynomial": "4q + 18q^{2} + 6q^{4}",
+   "matches": true
+  },
+  "3": {
+   "count": 153,
+   "formula_count": 153,
+   "polynomial": "9q + 72q^{2} + 24q^{3} + 48q^{9}",
+   "matches": true
+  },
+  "5": {
+   "count": 1225,
+   "formula_count": 1225,
+   "polynomial": "25q + 360q^{2} + 360q^{3} + 480q^{25}",
+   "matches": true
+  },
+  "7": {
+   "count": 4753,
+   "formula_count": 4753,
+   "polynomial": "49q + 1008q^{2} + 1680q^{3} + 2016q^{49}",
+   "matches": true
+  },
+  "11": {
+   "count": 29161,
+   "formula_count": 29161,
+   "polynomial": "121q + 3960q^{2} + 11880q^{3} + 13200q^{121}",
+   "matches": true
+  }
+ },
+ "python_equals_C": {
+  "(Z/4)^2 H": true,
+  "(Z/4)^2 L1": true,
+  "(Z/4)^2 L2": true,
+  "T8 H": true,
+  "T8 L1": true,
+  "T8 L2": true
+ }
+}
